@@ -1,0 +1,12 @@
+{% extends "index.html" %}
+{% load static %}
+
+{% block title %} About Page {% endblock %}
+
+{%block content%}
+
+<h1>This is the about page!</h1>
+
+<a href="{% url 'index' %}">Back to Index</a>
+
+{% endblock %}
